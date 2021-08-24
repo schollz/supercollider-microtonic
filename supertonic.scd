@@ -254,10 +254,10 @@ SynthDef("microtonic", {
 
 // 4. let it go!
 (
-x=~kicksound.(1);
-y=~hhsound.(1);
-z=~sdsound.(1);
-w=~clapsound.(1);
+x=~kicksound.();
+y=~hhsound.();
+z=~sdsound.();
+w=~clapsound.();
 t.stop;
 t = Task({
 	var bpm=120;
@@ -268,25 +268,25 @@ t = Task({
 			if (x.isPlaying,{
 				x.free;
 			});
-			x=~kicksound.(1);
+			x=~kicksound.();
 		});
 		if (~hh.(1)[i%beats]>0,{
 			if (y.isPlaying,{
 				y.free;
 			});
-			y=~hhsound.(1);
+			y=~hhsound.();
 		});
 		if (~sd.(1)[i%beats]>0,{
 			if (z.isPlaying,{
 				z.free;
 			});
-			z=~sdsound.(1);
+			z=~sdsound.();
 		});
 		if (~clap.(1)[i%beats]>0,{
 			if (w.isPlaying,{
 				w.free;
 			});
-			w=~clapsound.(1);
+			w=~clapsound.();
 		});
 		(60/bpm/4).wait;
 	});
