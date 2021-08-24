@@ -248,8 +248,8 @@ SynthDef("microtonic", {
 ~sd=~er.(2).rotate(6);
 ~sd=~er.(2).rotate(6)+~er.(1).rotate(5);
 ~clap={~er.(5)+~er.(2).rotate(3)-~er.(4,16)};
-~clap=~er.(2).rotate(4)+~er.(3).rotate(7);
 ~clap=~er.(0);
+~clap=~er.(2).rotate(4)+~er.(3).rotate(7);
 )
 
 // 4. let it go!
