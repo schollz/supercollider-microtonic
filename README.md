@@ -1,6 +1,6 @@
 # supercollider-microtonic
 
-One of my favorite drum machines is the [Microtonic VST by SonicCharge](https://soniccharge.Com/microtonic). I have this VST and I use it a lot, but I was hoping to control it via OSC in SuperCollider so I sought to port it to SuperCollider. Namely, I really wanted to use this sound in [norns](https://monome.org). I ended up getting very close (I think) and made a norns script using these sounds called "[supertonic](https://schollz.com/blog/supertonic/)".
+One of my favorite drum machines is the [Microtonic VST by SonicCharge](https://soniccharge.Com/microtonic). I have this VST and I use it a lot, but I was hoping to control it via OSC in SuperCollider so I sought to port it to SuperCollider. Namely, I really wanted to use this sound in [norns](https://monome.org/#norns). I ended up getting very close (I think) and made a norns script using these sounds called "[supertonic](https://schollz.com/blog/supertonic/)".
 
 You can use this repository by opening `microtonic.scd`. It will open up a `SynthDef` with the basic parameters, and then some example presets and an example euclidean drum sequencer.
 
