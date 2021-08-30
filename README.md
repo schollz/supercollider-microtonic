@@ -14,7 +14,7 @@ Here's a direct comparison between the SuperCollider port and Microtonic on some
 I included a Lua script that you can use to convert your Microtonic presets into SuperCollider code automatically. Simply run:
 
 ```bash
-lua mtpreset2sc.lua /location/to/microtonic/preset > preset.scd
+lua utonic2sc.lua /location/to/microtonic/preset > preset.scd
 ```
 
 ## More information
